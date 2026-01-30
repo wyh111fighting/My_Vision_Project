@@ -1,0 +1,16 @@
+# 默认配置
+
+camera:
+  device_id: 0
+  width: 640
+  height: 480
+  fps: 30
+
+vision:
+  model_path: "models/model.onnx"
+  conf_threshold: 0.5
+  iou_threshold: 0.45
+
+control:
+  enable: true
+  rate_hz: 20
